@@ -2,9 +2,9 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { WistiaVideoPlayer } from "./WistiaVideoPlayer";
 
 /**
- * A video player component built using the [Wistia Player API](https://docs.wistia.com/docs/javascript-player-api).
+ * A video player component built using React and the [Wistia Player API](https://docs.wistia.com/docs/javascript-player-api).
  *
- * To use this component, provide the id of the video you want to load via the `videoId` prop.
+ * To use this component, provide the Wistia id of the video you want to load via the `videoId` prop.
  *
  * When you provide the `videoId`, the component asynchronously handles and loads two scripts to build
  * the player and load the required video assets. For more information about these scripts and why they
@@ -16,8 +16,8 @@ import { WistiaVideoPlayer } from "./WistiaVideoPlayer";
  * which sends back the wisita video data for your video when the video is ready and embedded.
  */
 const meta = {
-  title: "Components/Wistia Video Player",
   component: WistiaVideoPlayer,
+  title: "Components/Wistia Video Player",
   tags: ["autodocs"],
   decorators: [
     (Story) => (
