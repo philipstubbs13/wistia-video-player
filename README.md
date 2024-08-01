@@ -59,6 +59,8 @@ A custom video player component built using React and the [Wistia JavaScript Pla
 
 - **Easy integration of the Wistia JavaScript Player API into any React application.** The [Wistia Player Playground](https://wistia-video-player.vercel.app/) site shows an example of how you can efficiently and effectively integrate the Wistia video player component in a Next.js application using the app router. Although just one example, it shows just how easy the Wistia JavaScript Player API is to work with and integrate as a React developer.
 
+- **Quick access to Wistia video data**. The video player component was designed in a way so that you have quick, easy access to the video player data that the Wistia API provides, such as video duration, video name, video stats, and more.
+
 ## <a name="getting-started"></a>Getting Started
 
 Follow these instructions to set up and run the project on your local machine.
