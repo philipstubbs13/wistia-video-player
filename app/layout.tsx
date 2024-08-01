@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Wistia Video Player",
+  title: "Wistia Video Playground",
   description:
     "A video player component built using React and the Wistia Player API",
 };
