@@ -26,7 +26,7 @@ A custom video player component built using React and the [Wistia JavaScript Pla
   - [Features](#features)
 - [Getting Started](#getting-started)
 - [Wistia Player Playground](#playground)
-- [Running Storybook](#running-tests)
+- [Running Storybook](#running-storybook)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [Contact](#contact)
