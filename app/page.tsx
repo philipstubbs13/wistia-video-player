@@ -1,13 +1,8 @@
-"use client";
-
-import { WistiaVideoPlayer } from "@/components/wistia-video-player/WistiaVideoPlayer";
+import { WistiaVideoPlayground } from "@/components/wistia-video-playground/WistiaVideoPlayground";
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { Suspense } from "react";
 
 export default function Home() {
-  const searchParams = useSearchParams();
-  const videoId = searchParams.get("videoId") || "hb26s9rudm";
-
   return (
     <main>
       <div className="w-full max-w-5xl mx-auto py-12 px-4 md:px-6">
@@ -43,7 +38,9 @@ export default function Home() {
               Storybook
             </Link>
           </div>
-          {videoId && <WistiaVideoPlayer videoId={videoId} />}
+          <Suspense fallback={"Loading..."}>
+            <WistiaVideoPlayground />
+          </Suspense>
         </div>
       </div>
     </main>
